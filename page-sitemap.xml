@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>http://xihua.shop/</loc>
+        <loc>http://e-lise.top/</loc>
         <changefreq>daily</changefreq>
         <priority>1</priority>
     </url>
@@ -10,7 +10,7 @@
     
     
     <url>
-        <loc>http://xihua.shop/home/</loc>
+        <loc>http://e-lise.top/home/</loc>
         <lastmod>2024-09-03T14:18:28.290Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
@@ -19,7 +19,7 @@
     
     
     <url>
-        <loc>http://xihua.shop/category/</loc>
+        <loc>http://e-lise.top/category/</loc>
         <lastmod>2024-09-03T14:18:26.767Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
@@ -28,7 +28,7 @@
     
     
     <url>
-        <loc>http://xihua.shop/categories/</loc>
+        <loc>http://e-lise.top/categories/</loc>
         <lastmod>2024-09-03T14:18:24.580Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
@@ -37,7 +37,7 @@
     
     
     <url>
-        <loc>http://xihua.shop/archive/</loc>
+        <loc>http://e-lise.top/archive/</loc>
         <lastmod>2024-09-03T14:18:20.471Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
@@ -46,7 +46,7 @@
     
     
     <url>
-        <loc>http://xihua.shop/bbs/</loc>
+        <loc>http://e-lise.top/bbs/</loc>
         <lastmod>2024-09-03T14:13:39.035Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
@@ -55,7 +55,7 @@
     
     
     <url>
-        <loc>http://xihua.shop/links/</loc>
+        <loc>http://e-lise.top/links/</loc>
         <lastmod>2024-09-03T12:25:53.859Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
@@ -64,7 +64,7 @@
     
     
     <url>
-        <loc>http://xihua.shop/about/</loc>
+        <loc>http://e-lise.top/about/</loc>
         <lastmod>2024-09-03T12:24:42.114Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
@@ -73,7 +73,7 @@
     
     
     <url>
-        <loc>http://xihua.shop/tag/</loc>
+        <loc>http://e-lise.top/tag/</loc>
         <lastmod>2024-09-03T12:24:07.292Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
@@ -82,7 +82,7 @@
     
     
     <url>
-        <loc>http://xihua.shop/like/tags/</loc>
+        <loc>http://e-lise.top/like/tags/</loc>
         <lastmod>2024-09-03T12:24:01.540Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
