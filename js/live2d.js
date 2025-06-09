@@ -12,7 +12,7 @@ function initSakanaWidget() {
     return;
   }
 
-  // 获取角色
+  // 获取内置角色
   const takina = SakanaWidget.getCharacter("takina");
   takina.initialState = {
     ...takina.initialState,
@@ -25,17 +25,32 @@ function initSakanaWidget() {
     i: 0.001,
   };
 
+  //创建自定义角色
+  const elise = SakanaWidget.getCharacter("chisato");
+  elise.image = `https://img.alicdn.com/imgextra/i1/2208899143332/O1CN01rZdfw11aU6kmmo17a_!!2208899143332.png`;
+  elise.initialState = {
+    ...elise.initialState,
+    i: 0.001,
+  };
+
+  // 角色数组，新增角色可添加至这里
+  const allCharacters = [takina, chisato, elise];
+
   // 随机选择角色
   const selectedCharacter =
-    Math.floor(Math.random() * 2) === 0 ? takina : chisato;
+    allCharacters[Math.floor(Math.random() * allCharacters.length)];
   SakanaWidget.registerCharacter("custom", selectedCharacter);
 
   // 使用构造函数初始化 SakanaWidget
   new SakanaWidget({
     character: "custom",
     controls: false,
+    // 自适应缩放
+    // autoFit: true,
   }).mount("#sakana-widget");
 }
+
+// <!-- 仅在非手机端加载样式和脚本 -->
 if (!isMobileDevice()) {
   document.write(`
       <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/sakana-widget@2.7.0/lib/sakana.min.css" />
