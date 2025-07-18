@@ -25,7 +25,7 @@ function initSakanaWidget() {
     i: 0.001,
   };
 
-  //创建自定义角色
+  //创建自定义角色并通过 getCharacter 静态方法获取内置的对象注册
   const elise = SakanaWidget.getCharacter("chisato");
   elise.image = `https://img.alicdn.com/imgextra/i1/2208899143332/O1CN01rZdfw11aU6kmmo17a_!!2208899143332.png`;
   elise.initialState = {
@@ -45,8 +45,7 @@ function initSakanaWidget() {
   new SakanaWidget({
     character: "custom",
     controls: false,
-    // 自适应缩放
-    // autoFit: true,
+    size: 250,
   }).mount("#sakana-widget");
 }
 
