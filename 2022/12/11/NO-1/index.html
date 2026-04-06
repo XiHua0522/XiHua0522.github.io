@@ -19,16 +19,16 @@
   <meta name="author" content="Elise">
   <meta name="keywords" content="动画,Elise,xihua,教程,Hexo">
   
-    <meta name="description" content=".video-gallery {     display: flex;     justify-content: center;     align-items: center; } .video-container {     position: relative;     display: inline-block;     cursor: pointer;     transition">
+    <meta name="description" content="&#x2F;* 引用块背景 *&#x2F; blockquote {   padding         : auto;   line-height     : 22px;   border-radius   : 5px;   display         : block;   border-color    : #78c578;   background-color: #e6f9e6;   padding-le">
 <meta property="og:type" content="article">
 <meta property="og:title" content="作品小册子">
 <meta property="og:url" content="http://e-lise.top/2022/12/11/NO-1/index.html">
 <meta property="og:site_name" content="Elise的个人博客">
-<meta property="og:description" content=".video-gallery {     display: flex;     justify-content: center;     align-items: center; } .video-container {     position: relative;     display: inline-block;     cursor: pointer;     transition">
+<meta property="og:description" content="&#x2F;* 引用块背景 *&#x2F; blockquote {   padding         : auto;   line-height     : 22px;   border-radius   : 5px;   display         : block;   border-color    : #78c578;   background-color: #e6f9e6;   padding-le">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://img.alicdn.com/imgextra/i3/2208899143332/O1CN01tkml3B1aU6p7oE6f0_!!2208899143332.jpg">
 <meta property="article:published_time" content="2022-12-11T13:08:02.000Z">
-<meta property="article:modified_time" content="2026-04-06T06:46:13.377Z">
+<meta property="article:modified_time" content="2026-04-06T07:29:50.669Z">
 <meta property="article:author" content="Elise">
 <meta property="article:tag" content="原创">
 <meta property="article:tag" content="临摹">
@@ -269,7 +269,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          334 字
+          455 字
         
       </span>
     
@@ -280,7 +280,7 @@
         
         
         
-          3 分钟
+          4 分钟
         
       </span>
     
@@ -332,6 +332,57 @@
               <div class="markdown-body">
                 
                 <style>
+/* 引用块背景 */
+blockquote {
+  padding         : auto;
+  line-height     : 22px;
+  border-radius   : 5px;
+  display         : block;
+  border-color    : #78c578;
+  background-color: #e6f9e6;
+  padding-left    : 1em;
+  margin-bottom   : 0.8em;
+  font-family: "黑体";
+}
+
+
+blockquote p {
+  padding-left: 3px; 
+  padding-top: 12px;
+  padding-bottom: 12px;
+  /* font-size: 85%; */
+  color: #000;
+}
+
+blockquote code {
+  background-color: transparent;
+  font-weight: bold;
+}
+
+
+blockquote.warn {
+  background: rgba(230,162,60,.1);
+  border-color: #e6a23c;
+  padding-left: 3px; 
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 85%;
+  color: #000;
+  padding-left    : 1em;
+}
+
+blockquote.danger {
+  background: hsla(0,87%,69%,.1);
+  border-color: #f56c6c;
+  padding-left: 3px; 
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 85%;
+  color: #000;
+  padding-left    : 1em;
+}
+
+/* 视播放css,点击全屏播放 */
   .video-gallery {
     display: flex;
     justify-content: center;
@@ -452,8 +503,9 @@ function toggleFullscreen(videoContainer) {
     }
 </script>
 
-<h1 id="作品一览"><a href="#作品一览" class="headerlink" title=" 作品一览"></a><center> 作品一览</h1><center> <p><b>如遇到视频或图片加载不出来的情况请尝试刷新页面或使用代理访问</b></p>
-
+<h1 id="作品一览"><a href="#作品一览" class="headerlink" title=" 作品一览"></a><center> 作品一览</h1><blockquote>
+<center> <p>如遇到视频或图片加载不出来的情况请尝试刷新页面或使用代理访问</p>
+</blockquote>
 <h1 id="2022"><a href="#2022" class="headerlink" title="2022"></a><center>2022</h1><h3 id="MG-x2F-2D"><a href="#MG-x2F-2D" class="headerlink" title=" MG&#x2F;2D"></a><center> MG&#x2F;2D</h3><h4 id="临摹"><a href="#临摹" class="headerlink" title=" 临摹"></a><center> 临摹</h4><!-- 第一行 -->
 <div class="video-gallery">
         <div class="video-container" onclick="toggleFullscreen(this)">
@@ -476,7 +528,7 @@ function toggleFullscreen(videoContainer) {
         </div>
         <div class="video-container" onclick="toggleFullscreen(this)">
             <video controls>
-                <source src="https://video3.yangkeduo.com/i1/2023-05-27/c80e84374a50e62761542687613c318c.mp4" type="video/mp4">
+                <source src="http://cloud.video.taobao.com/play/u/null/p/1/e/6/t/1/559855564110.mp4" type="video/mp4">
             </video>
         </div>
     </div>
