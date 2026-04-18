@@ -57,3 +57,7 @@ if (!isMobileDevice()) {
       <script async onload="initSakanaWidget()" src="https://fastly.jsdelivr.net/npm/sakana-widget@2.7.0/lib/sakana.min.js"><\/script>
     `);
 }
+<link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/markmap-toolbar@0.18.10/dist/style.css"><script src="https://fastly.jsdelivr.net/npm/d3@7"></script><script src="https://fastly.jsdelivr.net/npm/markmap-view@0.18.10"></script><script src="https://fastly.jsdelivr.net/npm/markmap-toolbar@0.18.10"></script>
+<link rel="stylesheet" href="/css/markmap.css">
+
+<script src="/js/markmap.js"></script>
